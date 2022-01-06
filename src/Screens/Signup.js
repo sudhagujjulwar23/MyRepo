@@ -14,7 +14,7 @@ const SignUpScreen = (props) => {
 
     const onClickSignUp = () => {
         const { navigation } = props;
-        navigation.navigate('SignUp');
+        navigation.navigate('Login');
     }
 
     const onClickLogin = () => {
