@@ -20,7 +20,7 @@ const SignUpScreen = (props) => {
     const onClickLogin = () => {
         if (validateFields()) {
             const { navigation } = props;
-            navigation.navigate('Categories');
+            navigation.navigate('Login');
         }
 
     }
